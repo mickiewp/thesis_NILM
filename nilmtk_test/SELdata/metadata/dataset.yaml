@@ -1,0 +1,25 @@
+name: SEL
+long_name: The Reference Energy Disaggregation Data set
+creators:
+- Mickiewicz, Patryk
+publication_date: 2022
+institution: Smart Energy Lab (SEL)
+contact: none
+description: One week of data for 2 houses. 
+subject: Master's thesis for NILM
+number_of_buildings: 2
+timezone: Europe/London 
+geo_location:
+  locality: Lisbon # village, town, city or state
+  country: PT # standard two-letter country code defined by ISO 3166-1 alpha-2
+  latitude: 38.7223 # assuming that these houses are in Lisbon 
+  longitude: 9.1393
+related_documents:
+- http://redd.csail.mit.edu
+- >
+  J. Zico Kolter and Matthew J. Johnson.
+  REDD: A public data set for energy disaggregation research.
+  In proceedings of the SustKDD workshop on
+  Data Mining Applications in Sustainability, 2011.
+  http://redd.csail.mit.edu/kolter-kddsust11.pdf
+schema: https://github.com/nilmtk/nilm_metadata/tree/v0.2

@@ -1,0 +1,37 @@
+instance: 1   # this is the first building in the dataset
+original_name: house0   # original name from REDD dataset
+elec_meters:
+  1: &EM6400
+    site_meter: true
+    device_model: EM6400
+  2: &eMonitor
+    submeter_of: 0 
+    device_model: eMonitor
+  3: *eMonitor
+  4: *eMonitor
+  5: *eMonitor
+
+appliances:
+- original_name: fridge
+  type: fridge
+  #floor: 0
+  instance: 1
+  meters: [2]
+
+- original_name: electric oven
+  type: electric oven
+  instance: 1
+  #floor: 1
+  meters: [3]
+
+- original_name: kettle
+  type: kettle 
+  instance: 1
+  #floor: 1
+  meters: [4]
+
+- original_name: stove
+  type: stove
+  instance: 1
+  #floor: 1
+  meters: [5]
